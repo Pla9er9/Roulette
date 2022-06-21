@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roulette</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="logo">Hell's Roulette</div>
+    <div id="selectInput">
+        <label for="colors">Choose a color to place a bet:</label>
+        <select name="colors" id="colors">
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+        </select>
+    </div>
+    <button id="spinButton">Spin!</button>
+    <div class="mainBox" style="margin-left: calc(23% - 50px);" id="box1"></div>
+    <div class="mainBox" style="margin-left: calc(33% - 50px);"id="box2"></div>
+    <div class="mainBox" style="margin-left: calc(50% - 50px);width: 150px;height: 150px;margin-top: 300px;"id="box3"></div>
+    <div class="mainBox" style="margin-left: calc(73% - 50px);"id="box4"></div>
+    <div class="mainBox" style="margin-left: calc(83% - 50px);"id="box5"></div>
+</body>
+</html>
